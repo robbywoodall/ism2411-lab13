@@ -7,3 +7,5 @@ print(df.dtypes)
 south = df[df['region'] == 'South']
 print(len(south))
 print(south.head())
+top5 = df.sort_values('revenue', ascending=False).head(5)
+print(top5)
