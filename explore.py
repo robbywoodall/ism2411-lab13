@@ -15,3 +15,7 @@ print(big_south.head())
 df['per_unit'] = df['revenue'] / df['quantity']
 print(df.head())
 print(df['per_unit'].mean())
+print(df['region'].unique())
+print(df['region'].value_counts())
+narrow_df = df[['region', 'product', 'revenue']]
+print(narrow_df.shape)
