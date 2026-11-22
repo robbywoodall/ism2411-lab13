@@ -19,3 +19,5 @@ print(df['region'].unique())
 print(df['region'].value_counts())
 narrow_df = df[['region', 'product', 'revenue']]
 print(narrow_df.shape)
+df.to_csv("data/explored.csv", index=False)
+print("\nSaved to data/explored.csv")
