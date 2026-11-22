@@ -4,3 +4,6 @@ print(df.head())
 print(df.shape)
 print(df.columns.tolist())
 print(df.dtypes)
+south = df[df['region'] == 'South']
+print(len(south))
+print(south.head())
