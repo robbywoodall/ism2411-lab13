@@ -1,3 +1,12 @@
+# --- Reflection 1 ---
+# Boolean filters check each line to see if data meets a certain condition (True or False)
+# --- Reflection 2 ---
+# Single brackets return a serial, which is one dimensional. Double brackets return
+# a DataFrame which is 2 dimensional. This matters when performing functions that expect
+# a certain structure.
+# --- Reflection 3 ---
+# Pandas will allow you to create something that you can use repeatedly with consistent
+# results. It will save you hours of time!
 import pandas as pd
 df = pd.read_csv('data/retail_sales.csv')
 print(df.head())
